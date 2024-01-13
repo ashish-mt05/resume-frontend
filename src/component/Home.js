@@ -4,7 +4,7 @@ import Address from './formlayout/Address'
 import PersonalDetails from './formlayout/PersonalDetails'
 import Summary from './formlayout/Summary'
 import Skills from './formlayout/Skills'
-import Education from './formlayout/Education'
+import EducationDetails from './formlayout/EducationDetails'
 
 export default function Home() {
     return (
@@ -18,7 +18,7 @@ export default function Home() {
                             <Route path='address' element={<Address />} />
                             <Route path='summary' element={<Summary />} />
                             <Route path='skill' element={<Skills />} />
-                            <Route path='/education' element={<Education />} />
+                            <Route path='/education' element={<EducationDetails />} />
                         </Routes>
                     </BrowserRouter>
                 </div>
